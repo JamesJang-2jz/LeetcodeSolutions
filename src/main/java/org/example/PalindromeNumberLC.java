@@ -16,4 +16,13 @@ public class PalindromeNumberLC {
         }
         return true;
     }
+
+    public boolean isPalindrome(int x, String compareReverse){
+        String str = String.valueOf(x);
+        String reverse = "";
+        for (int i = 0; i < str.length(); i++) {
+            reverse = str.charAt(i) + reverse;
+        }
+        return (reverse.equals(str));
+    }
 }
