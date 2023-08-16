@@ -1,5 +1,3 @@
-package org.example;
-
 public class PalindromeNumberLC {
 
     public boolean isPalindrome(int x){
