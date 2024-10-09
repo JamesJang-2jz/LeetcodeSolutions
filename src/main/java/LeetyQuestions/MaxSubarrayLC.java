@@ -1,3 +1,5 @@
+package LeetyQuestions;
+
 public class MaxSubarrayLC {
 
     public int maxSubArray(int[] nums) {

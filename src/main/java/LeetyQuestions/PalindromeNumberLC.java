@@ -1,3 +1,5 @@
+package LeetyQuestions;
+
 public class PalindromeNumberLC {
 
     public boolean isPalindrome(int x){
