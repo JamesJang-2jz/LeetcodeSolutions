@@ -1,7 +1,7 @@
 package NeetCode150Test;
 
 import NeetCode150.TwoIntegerSum;
-import org.junit.jupiter.api.Assertions;
+import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
@@ -19,6 +19,6 @@ public class TwoIntegerSumTest {
     // then
         System.out.println(Arrays.toString(result));
         System.out.println(Arrays.toString(expected));
-    Assertions.assertArrayEquals(result, expected);
+    Assert.assertArrayEquals(result, expected);
     }
 }
